@@ -11,7 +11,6 @@ let amount = 0;
 btns.forEach((btn) => {
   btn.addEventListener("click", (e) => {
     const info = e.currentTarget.classList;
-
     if (info.contains("increase")) {
       amount++;
       console.log(amount);
